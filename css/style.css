@@ -256,6 +256,22 @@ background-size: 100%;
 }
 
 
+
+.email_icon {
+background: transparent url(../img/mail.png) no-repeat;
+width: 30px;
+height: 30px;
+opacity:.8;
+display: block;
+background-size: 100%;
+}
+
+ .email_icon:hover {
+	text-decoration: none;
+	opacity: 0.6;
+}
+
+
 /** From Chrome     **/ 
 
 
