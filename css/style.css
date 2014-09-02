@@ -6,6 +6,19 @@ body {
 }
 
 
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    opacity:.9;
+    height: 100%;
+    z-index: 9999;
+    background: url('../img/gear.gif') 50% 50% no-repeat rgb(249,249,249);
+}
+
+
+
 
 article h2 { font-family: 'Jacques Francois', serif; font-size:36px; margin: 15px 0; line-height:.95em; }
 article p { font-family: 'Rokkitt', serif; font-size: 20px;  }
@@ -42,12 +55,12 @@ article p { font-family: 'Rokkitt', serif; font-size: 20px;  }
 
 
 #four { 
-		background: url(../img/highTea.jpg) 50% 0 no-repeat fixed; 
+		background: url(../img/highTea.png) 50% 0 no-repeat fixed; 
 		background-size: 130%;
  		}
 
 #five { 
-		background: url(../img/hibiscus.jpg) 50% 0   no-repeat fixed; 
+		background: url(../img/hibiscus.png) 50% 0   no-repeat fixed; 
 		background-size :  130%;
 		}
 

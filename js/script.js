@@ -7,6 +7,9 @@
 // Document ready function
 $(document).ready(function(){
 
+    $(window).load(function() {
+    $(".loader").fadeOut("slow");
+})
 	// Cache the Window object
 	$window = $(window);
 
